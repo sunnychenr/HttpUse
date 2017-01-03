@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="#5ab5ff"
+        android:text="添加黑名单号码"
+        android:textSize="20sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tv_fromInput"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="手动添加"
+        android:textSize="18sp"
+        android:textColor="#4c97ff"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#b4b4b4"/>
+    <TextView
+        android:id="@+id/tv_fromContacts"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="通讯录添加"
+        android:textSize="18sp"
+        android:textColor="#4c97ff"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#b4b4b4"/>
+    <TextView
+        android:id="@+id/tv_fromCallLog"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="通话历史添加"
+        android:textSize="18sp"
+        android:textColor="#4c97ff"/>
+
+</LinearLayout>
